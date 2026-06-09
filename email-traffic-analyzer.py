@@ -2,7 +2,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 
-df = pd.read_excel("data/modified_table.xlsx", header=3)
+df = pd.read_excel("modified_table.xlsx", header=3)
 
 
 df = df.iloc[2:].reset_index(drop=True)
